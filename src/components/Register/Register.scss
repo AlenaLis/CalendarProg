@@ -1,0 +1,98 @@
+.valid__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #1b1c1c;
+
+  .h2__text {
+    margin-top: 80px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    margin-bottom: 30px;
+    color: #dedede;
+  }
+
+  .valid__form {
+    display: flex;
+    flex-direction: column;
+
+    .input {
+      font-family: 'IBM Plex Sans', sans-serif;
+      width: 396px;
+      height: 47px;
+      text-indent: 16px;
+    }
+
+    .error-input {
+      font-family: 'IBM Plex Sans', sans-serif;
+      width: 396px;
+      height: 47px;
+      text-indent: 16px;
+      border: 1px solid red;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 14px;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-weight: 400;
+      color: #dedede;
+    }
+
+    .validation {
+      font-family: 'IBM Plex Sans', sans-serif;
+      color: #CF4949;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 11px;
+      line-height: 14px;
+      margin-top: 4px;
+      margin-bottom: 0;
+    }
+  }
+
+  .valid__bottom {
+
+    .radio__buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      .left__radio {
+        display: flex;
+        color: #fff;
+      }
+
+      .right__radio {
+        display: flex;
+        color: #fff;
+      }
+    }
+
+    .marg {
+      margin-bottom: 110px;
+    }
+
+    .button__valid {
+      margin: 48px 0 15px;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 15px;
+      background: #4e3556;
+      width: 399px;
+      height: 55px;
+      color: #1b1c1c;
+      border: 1px solid #dedede;;
+    }
+
+    p {
+      text-align: center;
+      color: #242424;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 15px;
+      margin-bottom: 281px;
+    }
+  }
+}
