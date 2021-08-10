@@ -5,25 +5,22 @@ import {routes} from './routes/routes';
 const App = () => {
 
   return (
-      <BrowserRouter>
-        <div className="App">
-          <head>
-            <meta charSet="utf-8" />
-          </head>
-          <Switch>
-            <div className="wrapper__all">
-              {routes.map((route, index) => (
-                  <Route
-                      key={index}
-                      path={route.path}
-                      exact={route.exact}
-                      component={route.component}
-                  />
-              ))}
-            </div>
-          </Switch>
-        </div>
-      </BrowserRouter>
+    <BrowserRouter>
+      <div className="App">
+        <Switch>
+          <div className="wrapper__all">
+            {routes.map((route, index) => (
+              <Route
+                key={index}
+                path={route.path}
+                exact={route.exact}
+                component={route.component}
+              />
+            ))}
+          </div>
+        </Switch>
+      </div>
+    </BrowserRouter>
   );
 }
 

@@ -55,16 +55,12 @@
   .valid__bottom {
 
     .radio__buttons {
-      display: flex;
-      justify-content: space-between;
+
       margin-top: 10px;
+
       .left__radio {
         display: flex;
-        color: #fff;
-      }
-
-      .right__radio {
-        display: flex;
+        justify-content: space-between;
         color: #fff;
       }
     }
